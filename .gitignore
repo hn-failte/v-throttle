@@ -6,14 +6,5 @@ Thumbs.db
 # npm
 node_modules/
 
-# hexo
-db.json
-
-# vuepress
-docs/.vuepress/dist
-
-# delpoy
-.deploy*/
-
-# 百度链接推送
-urls.txt
+# build
+dist

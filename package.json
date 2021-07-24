@@ -1,16 +1,27 @@
 {
   "name": "v-throttle",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "private": false,
   "description": "Vue节流指令",
-  "main": "./src/VThrottle.js",
   "keywords": [
     "throttle",
     "节流",
     "指令",
     "Vue"
   ],
+  "main": "dist/v-throttle/index.js",
+  "module": "dist/es/v-throttle/index.js",
+  "scripts": {
+    "dev": "rollup -c --watch",
+    "build": "rollup -c"
+  },
   "author": "hn-failte<failte@163.com>",
-  "repository": { "type": "git", "url": "https://github.com/hn-failte/v-throttle.git" },
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hn-failte/v-throttle.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "rollup": "^2.53.3"
+  }
 }
