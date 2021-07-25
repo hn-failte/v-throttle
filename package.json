@@ -1,6 +1,6 @@
 {
   "name": "v-throttle",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "description": "Vue 节流指令",
   "keywords": [
@@ -22,7 +22,7 @@
     "url": "https://github.com/hn-failte/v-throttle.git"
   },
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "rollup": "^2.53.3"
   }
 }
