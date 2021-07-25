@@ -1,8 +1,8 @@
 {
   "name": "v-throttle",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
-  "description": "Vue节流指令",
+  "description": "Vue 节流指令",
   "keywords": [
     "throttle",
     "节流",
@@ -12,15 +12,16 @@
   "main": "dist/v-throttle/index.js",
   "module": "dist/es/v-throttle/index.js",
   "scripts": {
+    "start": "rollup -c --watch",
     "dev": "rollup -c --watch",
     "build": "rollup -c"
   },
-  "author": "hn-failte<failte@163.com>",
+  "author": "hn-failte<failteku@gmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/hn-failte/v-throttle.git"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "rollup": "^2.53.3"
   }
