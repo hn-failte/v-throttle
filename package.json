@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "private": false,
   "description": "Vue 节流指令",
+  "files": ["dist"],
   "keywords": [
     "throttle",
     "节流",
